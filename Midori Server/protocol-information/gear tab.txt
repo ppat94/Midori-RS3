@@ -1,0 +1,182 @@
+Loadout:
+sendConfig(3708, 34220033);
+sendInterface(true, 1448, 3, 1474);
+sendIComponentSettings(1474, 13, -1, -1, 2097152);
+sendIComponentSettings(1474, 13, 0, 27, 15302030);
+sendIComponentSettings(1474, 0, 0, 27, 1536);
+sendInterface(true, 1448, 5, 1463);
+sendInterface(true, 1448, 7, 1462);
+sendIComponentText(1463, 9, Metal Pk Pro);
+sendIComponentSettings(1462, 13, 0, 15, 10845582);
+sendIComponentSettings(1462, 19, 2, 7, 2);
+
+Wardrobe:
+sendConfig(3708, 34228225);
+sendConfig(256, 4194274);
+sendConfig(256, 4194274);
+sendConfig(256, 4194274);
+sendInterface(true, 1448, 3, 1311);
+sendCS2Script(8862, 2, 0)
+sendCS2Script(8862, 3, 0)
+sendIComponentSettings(1311, 150, 0, 2175, 14);
+sendIComponentSettings(1311, 149, 0, 2175, 14);
+sendIComponentSettings(1311, 148, 0, 2175, 14);
+sendIComponentSettings(1311, 147, 0, 2175, 14);
+sendIComponentSettings(1311, 146, 0, 2175, 14);
+sendIComponentSettings(1311, 145, 0, 2175, 14);
+sendIComponentSettings(1311, 144, 0, 2175, 14);
+sendIComponentSettings(1311, 143, 0, 2175, 14);
+sendIComponentSettings(1311, 142, 0, 2175, 14);
+sendIComponentSettings(1311, 141, 0, 2175, 14);
+sendIComponentSettings(1311, 140, 0, 2175, 14);
+sendIComponentSettings(1311, 139, 0, 2175, 14);
+sendIComponentSettings(1311, 138, 0, 2175, 14);
+sendIComponentSettings(1311, 137, 0, 2175, 14);
+sendIComponentSettings(1311, 136, 0, 2175, 14);
+sendIComponentSettings(1311, 135, 0, 2175, 14);
+sendIComponentSettings(1311, 134, 0, 2175, 14);
+sendIComponentSettings(1311, 79, 0, 2175, 14);
+sendIComponentSettings(1311, 126, 0, 3, 2);
+sendIComponentSettings(1311, 208, 0, 204, 6);
+sendIComponentSettings(1311, 360, 0, 87, 2);
+sendIComponentSettings(1311, 430, 0, 4, 2);
+sendCS2Script(6874)
+
+Titles:
+sendConfig(3708, 34236417);
+sendConfig(256, 4194275);
+sendConfig(256, 4194275);
+sendConfig(256, 4194275);
+sendConfig(1037, 0);
+sendConfig(1038, 0);
+sendConfig(1039, 0);
+sendConfig(1039, 15);
+sendConfig(1038, 8);
+sendConfig(1037, 100);
+sendConfig(1038, 92);
+sendConfig(1039, 85);
+sendConfig(260, 0);
+sendConfig(260, 0);
+sendConfig(4012, 650846);
+sendConfig(260, 0);
+sendInterface(true, 1448, 3, 1311);
+sendCS2Script(8862, 2, 0)
+sendCS2Script(8862, 3, 0)
+sendCS2Script(2716, -1)
+sendCS2Script(6453, <col=c86400> the Thrifty</col>, 0)
+sendIComponentSettings(1311, 150, 0, 2175, 14);
+sendIComponentSettings(1311, 149, 0, 2175, 14);
+sendIComponentSettings(1311, 148, 0, 2175, 14);
+sendIComponentSettings(1311, 147, 0, 2175, 14);
+sendIComponentSettings(1311, 146, 0, 2175, 14);
+sendIComponentSettings(1311, 145, 0, 2175, 14);
+sendIComponentSettings(1311, 144, 0, 2175, 14);
+sendIComponentSettings(1311, 143, 0, 2175, 14);
+sendIComponentSettings(1311, 142, 0, 2175, 14);
+sendIComponentSettings(1311, 141, 0, 2175, 14);
+sendIComponentSettings(1311, 140, 0, 2175, 14);
+sendIComponentSettings(1311, 139, 0, 2175, 14);
+sendIComponentSettings(1311, 138, 0, 2175, 14);
+sendIComponentSettings(1311, 137, 0, 2175, 14);
+sendIComponentSettings(1311, 136, 0, 2175, 14);
+sendIComponentSettings(1311, 135, 0, 2175, 14);
+sendIComponentSettings(1311, 134, 0, 2175, 14);
+sendIComponentSettings(1311, 79, 0, 2175, 14);
+sendIComponentSettings(1311, 126, 0, 3, 2);
+sendIComponentSettings(1311, 208, 0, 204, 6);
+sendIComponentSettings(1311, 360, 0, 87, 2);
+sendIComponentSettings(1311, 430, 0, 4, 2);
+sendCS2Script(6874)
+
+Animations:
+sendConfig(3708, 34244609);
+sendConfig(256, 4194276);
+sendConfig(256, 4194276);
+sendConfig(256, 4194276);
+sendConfig(1037, 0);
+sendConfig(1038, 0);
+sendConfig(1039, 0);
+sendConfig(1039, 15);
+sendConfig(1038, 8);
+sendConfig(1037, 100);
+sendConfig(1038, 92);
+sendConfig(1039, 85);
+sendConfig(260, 0);
+sendConfig(260, 0);
+sendConfig(4012, 650870);
+sendConfig(260, 0);
+sendInterface(true, 1448, 3, 1311);
+sendCS2Script(8862, 2, 0)
+sendCS2Script(8862, 3, 0)
+sendCS2Script(2716, -1)
+sendCS2Script(6453, <col=c86400> the Thrifty</col>, 0)
+sendIComponentSettings(1311, 150, 0, 2175, 14);
+sendIComponentSettings(1311, 149, 0, 2175, 14);
+sendIComponentSettings(1311, 148, 0, 2175, 14);
+sendIComponentSettings(1311, 147, 0, 2175, 14);
+sendIComponentSettings(1311, 146, 0, 2175, 14);
+sendIComponentSettings(1311, 145, 0, 2175, 14);
+sendIComponentSettings(1311, 144, 0, 2175, 14);
+sendIComponentSettings(1311, 143, 0, 2175, 14);
+sendIComponentSettings(1311, 142, 0, 2175, 14);
+sendIComponentSettings(1311, 141, 0, 2175, 14);
+sendIComponentSettings(1311, 140, 0, 2175, 14);
+sendIComponentSettings(1311, 139, 0, 2175, 14);
+sendIComponentSettings(1311, 138, 0, 2175, 14);
+sendIComponentSettings(1311, 137, 0, 2175, 14);
+sendIComponentSettings(1311, 136, 0, 2175, 14);
+sendIComponentSettings(1311, 135, 0, 2175, 14);
+sendIComponentSettings(1311, 134, 0, 2175, 14);
+sendIComponentSettings(1311, 79, 0, 2175, 14);
+sendIComponentSettings(1311, 126, 0, 3, 2);
+sendIComponentSettings(1311, 208, 0, 204, 6);
+sendIComponentSettings(1311, 360, 0, 87, 2);
+sendIComponentSettings(1311, 430, 0, 4, 2);
+sendCS2Script(6874)
+
+Appearance:
+sendConfig(3708, 34252801);
+sendConfig(256, 4194273);
+sendConfig(256, 4194273);
+sendConfig(256, 4194273);
+sendConfig(1037, 0);
+sendConfig(1038, 0);
+sendConfig(1039, 0);
+sendConfig(1039, 15);
+sendConfig(1038, 8);
+sendConfig(1037, 100);
+sendConfig(1038, 92);
+sendConfig(1039, 85);
+sendConfig(260, 0);
+sendConfig(260, 0);
+sendConfig(4012, 650888);
+sendConfig(260, 0);
+sendInterface(true, 1448, 3, 1311);
+sendCS2Script(8862, 2, 0)
+sendCS2Script(8862, 3, 0)
+sendCS2Script(2716, -1)
+sendCS2Script(6453, <col=c86400> the Thrifty</col>, 0)
+sendIComponentSettings(1311, 150, 0, 2175, 14);
+sendIComponentSettings(1311, 149, 0, 2175, 14);
+sendIComponentSettings(1311, 148, 0, 2175, 14);
+sendIComponentSettings(1311, 147, 0, 2175, 14);
+sendIComponentSettings(1311, 146, 0, 2175, 14);
+sendIComponentSettings(1311, 145, 0, 2175, 14);
+sendIComponentSettings(1311, 144, 0, 2175, 14);
+sendIComponentSettings(1311, 143, 0, 2175, 14);
+sendIComponentSettings(1311, 142, 0, 2175, 14);
+sendIComponentSettings(1311, 141, 0, 2175, 14);
+sendIComponentSettings(1311, 140, 0, 2175, 14);
+sendIComponentSettings(1311, 139, 0, 2175, 14);
+sendIComponentSettings(1311, 138, 0, 2175, 14);
+sendIComponentSettings(1311, 137, 0, 2175, 14);
+sendIComponentSettings(1311, 136, 0, 2175, 14);
+sendIComponentSettings(1311, 135, 0, 2175, 14);
+sendIComponentSettings(1311, 134, 0, 2175, 14);
+sendIComponentSettings(1311, 79, 0, 2175, 14);
+sendIComponentSettings(1311, 126, 0, 3, 2);
+sendIComponentSettings(1311, 208, 0, 204, 6);
+sendIComponentSettings(1311, 360, 0, 87, 2);
+sendIComponentSettings(1311, 430, 0, 4, 2);
+sendCS2Script(6874)
+

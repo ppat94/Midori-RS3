@@ -1,0 +1,73 @@
+Summary tab:
+sendConfig(3708, 34218496);
+sendInterface(true, 1448, 3, 320);
+sendIComponentSettings(320, 12, 0, 26, 30);
+sendInterface(true, 1448, 5, 1446);
+sendIComponentText(1446, 30, Metal Pk Pro);
+
+Skills tab:
+sendConfig(3708, 34219008);
+sendInterface(true, 1448, 3, 1218);
+sendCS2Script(5682, 8)
+sendInterface(true, 1218, 58, 1217);
+sendIComponentSettings(1218, 57, 0, 0, 2);
+
+Pets:
+sendConfig(3708, 34219520);
+sendConfig(256, 5);
+sendConfig(256, 4161541);
+sendConfig(256, 4194277);
+sendConfig(258, 12288);
+sendConfig(258, 12397);
+sendConfig(257, 58720256);
+sendConfig(257, 58720981);
+sendConfig(257, 58839765);
+sendConfig(261, 259);
+sendConfig(262, 14);
+sendConfig(1443, 131072);
+sendInterface(true, 1448, 3, 1311);
+sendCS2Script(8862, 2, 0)
+sendCS2Script(8862, 3, 0)
+sendIComponentSettings(1311, 150, 0, 2175, 14);
+sendIComponentSettings(1311, 149, 0, 2175, 14);
+sendIComponentSettings(1311, 148, 0, 2175, 14);
+sendIComponentSettings(1311, 147, 0, 2175, 14);
+sendIComponentSettings(1311, 146, 0, 2175, 14);
+sendIComponentSettings(1311, 145, 0, 2175, 14);
+sendIComponentSettings(1311, 144, 0, 2175, 14);
+sendIComponentSettings(1311, 143, 0, 2175, 14);
+sendIComponentSettings(1311, 142, 0, 2175, 14);
+sendIComponentSettings(1311, 141, 0, 2175, 14);
+sendIComponentSettings(1311, 140, 0, 2175, 14);
+sendIComponentSettings(1311, 139, 0, 2175, 14);
+sendIComponentSettings(1311, 138, 0, 2175, 14);
+sendIComponentSettings(1311, 137, 0, 2175, 14);
+sendIComponentSettings(1311, 136, 0, 2175, 14);
+sendIComponentSettings(1311, 135, 0, 2175, 14);
+sendIComponentSettings(1311, 134, 0, 2175, 14);
+sendIComponentSettings(1311, 79, 0, 2175, 14);
+sendIComponentSettings(1311, 126, 0, 3, 2);
+sendIComponentSettings(1311, 208, 0, 204, 6);
+sendIComponentSettings(1311, 360, 0, 87, 2);
+sendIComponentSettings(1311, 430, 0, 4, 2);
+sendCS2Script(6874)
+
+Achievements:
+sendConfig(20, -251658240);
+sendConfig(3708, 34220032);
+sendConfig(1270, 268959617);
+sendConfig(260, 0);
+sendConfig(260, 0);
+sendConfig(4012, 650738);
+sendConfig(260, 0);
+sendConfig(256, 32768);
+sendConfig(256, 4161536);
+sendConfig(256, 4194272);
+sendInterface(true, 1448, 3, 917);
+sendIComponentSettings(917, 20, 0, 2596, 6);
+sendIComponentSettings(917, 51, 0, 63, 2);
+sendIComponentSettings(917, 76, 0, 8, 2);
+sendIComponentSettings(917, 77, 0, 8, 2);
+sendInterface(true, 1448, 5, 1056);
+sendCS2Script(8862, 2, 1)
+sendCS2Script(8862, 3, 1)

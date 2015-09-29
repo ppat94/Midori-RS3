@@ -1,0 +1,60 @@
+Wrack
+18379 anim
+
+17975 ???
+
+
+
+19995
+
+17976
+
+
+
+Sonic wave
+23509-23510
+
+18428
+
+normal mage atk
+23483
+
+
+Chain
+18428
+
+Asyphixiate
+18394
+
+Combust
+18452
+
+Impact
+18428
+
+Omnipower
+18370
+
+Normal range atk
+23477-23478
+
+Prayer turn on
+18018
+
+Piercing shot
+18524
+
+Dazing shot
+19999
+
+Binding shot
+18459
+
+Snap shot
+18481
+
+Deadshot
+18471
+
+Dazing Shot
+18511 or 18488 or 18523

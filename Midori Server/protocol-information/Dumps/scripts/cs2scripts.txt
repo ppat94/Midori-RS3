@@ -1,0 +1,1 @@
+player.getWriter().sendCS2Script(9210); - lets you move the camera etc and interfaces.

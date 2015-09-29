@@ -1,0 +1,9 @@
+Global configs:
+
+2223, 1 = refresh skilling inter?
+2224, # = switch tabs?
+
+Global string:
+player.getWriter().sendGlobalString(2391, "A wooden arrow shaft.");
+
+skilling interface description

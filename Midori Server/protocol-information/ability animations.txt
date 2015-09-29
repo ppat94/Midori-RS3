@@ -1,0 +1,304 @@
+18082 - Rejuvernate.
+18083 - Rejuvernate.
+18084 - Rejuvernate.
+18085 - Rejuvernate.
+18086 - Rejuvernate.
+18087 - Rejuvernate.
+18091 - Barricade.
+18098 - Resonace.
+18099 - Resonace.
+18100 - Resonace.
+18101 - Resonace.
+18102 - Resonace.
+18103 - Resonace.
+18124 - Resonace.     <-------------These need to be figured out, other abilites use 'em
+18125 - Resonace.
+18126 - Resonace.
+18127 - Resonace.
+18128 - Resonace.
+18129 - Resonace.
+18142 - Resonace.
+18143 - Havoc.
+18150 - Flurry.
+18151 - Flurry.
+18152 - Flurry.
+18153 - Flurry.
+18160 - Slaughter.
+18161 - Slaughter.
+18162 - Slaughter.
+18163 - Slaughter.
+18164 - Slaughter.
+18165 - Whirlwind.
+18175 - Meteor Strike
+18177 - Overpower.
+18178 - Overpower.
+18179 - Overpower.
+18180 - Overpower.
+18185 - Hurricane.
+18186 - Hurricane.
+18198 - Metor Strike.
+18199 - Metor Strike.
+18201 - Massacare.
+18203 - Flurry.
+18204 - Slaughter.
+18205 - Momentum.
+18208 - Momentum.
+18209 - Momentum.
+18213 - Momentum.
+18355 - Wrack
+18356 - Wrack
+18357 - Wrack
+18358 - Surge
+18360 - Surge completion.
+18361 - Surge
+18362 - Detonate.
+18363 - Detonate.
+18364 - Omnipower.
+18365 - Omnipower.
+18366 - Omnipower.
+18367 - Omnipower.
+18368 - Omnipower.
+18369 - Omnipower.
+18370 - Omnipower.
+18371 - Dragon breath.
+18372 - Dragon breath.
+18373 - Dragon breath.
+18374 - Dragon breath.
+18375 - Dragon breath.
+18376 - Dragon breath.
+18379 - Impact.
+18381 - Impact.
+18382 - Impact.
+18383 - Wrack.
+18392 - Asphyxiate.
+18393 - Asphyxiate.
+18394 - Asphyxiate.
+18395 - Asphyxiate.
+18396 - Asphyxiate.
+18397 - Asphyxiate.
+18398 - Asphyxiate.
+18426 - Wrack
+18427 - Impact
+18428 - Impact
+18429 - Wrack
+18430 - Magic cast
+18431 - Magic cast
+18432 - Magic cast
+18449 - Magic cast
+18450 - Magic cast
+18451 - Magic cast
+18452 - Magic cast
+18453 - Magic cast
+18454 - Magic cast
+18455 - Magic cast
+18470 - Unload
+18478 - Unload
+18481 - Piercing Shot
+18482 - Punch.
+18483 - Punch.
+18484 - Punch.
+18485 - Punch/Throw?`
+18486 - Crowssbow shot
+18487
+18488
+18503 - Bombardment.
+18504
+18505
+18506
+18507
+18508
+18509 - Deadshot
+18527 - Escape
+18528 - Escape
+18529 - Escape
+18532 - crossbow rapid fire
+18533 - bow rapid fire
+18540
+18543
+18544
+18545
+18546 - Fury
+18547 - Fury
+18548 - Fury
+18549 - Fury? With a 2h
+18552 - Fury? With a 2h
+18554 - Fury? With a 2h
+18556 - Slice
+18557 - Slice? with 2h
+18558 - Slice? with 2h
+18559 - Slice? with 2h
+18560 - Punish
+
+18572 - Slice
+18577 - Fury
+18578
+18579
+18580
+18585
+18586
+18588
+18590 - Slaughter?
+18591
+18592
+18593
+18595
+18600
+18602
+
+
+sync 18082 3617 Rejuvinate
+sync 18083 3617 Rejuvinate
+sync 18084 3620 Rejuvinate
+sync 18085 3619 Rejuvinate
+sync 18086 3618 Rejuvinate
+sync 18087 3622 Rejuvinate
+sync 18091 3632 Barricade
+sync 18098 3616 Revenge
+sync 18099 3616 Revenge
+sync 18100 3616 Revenge
+sync 18101 3616 Revenge
+sync 18102 3616 Revenge
+sync 18103 3616 Revenge
+sync 18124 3624 Immortality
+sync 18125 3625 Immortality
+sync 18126 3626 Immortality
+sync 18127 3627 Immortality
+sync 18128 3628 Immortality
+sync 18129 3629 Immortality
+sync 18142 3579 Havoc
+sync 18143 3579 Havoc
+sync 18150 3589 Flurry
+sync 18151 3589 Flurry
+sync 18152 3590 Flurry
+sync 18153 3592 Flurry
+sync 18160 3581 Slaughter
+sync 18161 3581 Slaughter
+sync 18162 3581 Slaughter
+sync 18163 3581 Slaughter
+sync 18164 3581 Slaughter
+sync 18192      Barge
+sync 18165 3582 Tornado
+sync 18175 3583 Meteor Strike
+sync 18177 3585 Overpower
+sync 18178 3586 Overpower
+sync 18179 3584 Overpower
+sync 18180 3587 Overpower
+sync 18185 3582 Tornado
+sync 18186 3582 Tornado
+sync 18198 3583 Meteor Strike
+sync 18199 3583 Meteor Strike
+sync 18201 3593 Masscre
+sync 18203 3592 Flurry
+sync 18204 3581 Slaughter
+sync 18205 3594 Mommentum
+sync 18208 3597 Mommentum
+sync 18209 3596 Mommentum
+sync 18213 3598 Mommentum
+sync 18355 3530 Wrack (no weapons)
+sync 18356 3532 Wrack
+sync 18357 3534 Wrack
+sync 18358 3537 Surge
+sync 18360 3539 Detonate - End
+sync 18361 3539 Detonate - End
+sync 18362 3538 Detonate - Begin
+sync 18363 3538 Detonate - Begin
+sync 18364 3564 Omnipower
+sync 18365 3564 Omnipower
+sync 18366 3564 Omnipower
+sync 18367 3564 Omnipower
+sync 18368 3564 Omnipower
+sync 18369 3564 Omnipower
+sync 18370 3564 Omnipower
+sync 18371 3561 Dragons breathe
+sync 18372 3561 Dragons breathe
+sync 18373 3561 Dragons breathe
+sync 18374 3561 Dragons breathe
+sync 18375 3561 Dragons breathe
+sync 18376 3561 Dragons breathe
+sync 18379 3531 Wrack (two handed mage weapons e.g. Staff of light)
+sync 18381 3533 Wrack
+sync 18382 3529 Wrack
+sync 18383 3535 Wrack
+sync 18392 3541 Asphyxiate
+sync 18393 3540 Asphyxiate
+sync 18394 3542 Asphyxiate
+sync 18395 3543 Asphyxiate
+sync 18396 3544 Asphyxiate
+sync 18397 3545 Asphyxiate
+sync 18398 3546 Asphyxiate
+sync 18426 3553 Combust
+sync 18427 3552 Combust
+sync 18428 3554 Combust
+sync 18429 3555 Combust
+sync 18430 3556 Combust
+sync 18431 3557 Combust
+sync 18432 3558 Combust
+sync 18449 3568 Combust
+sync 18450 3570 Combust
+sync 18451 3572 Combust
+sync 18452 3569 Combust
+sync 18453 3571 Combust
+sync 18454 3567 Combust
+sync 18455 3573 Combust
+sync 18470 3510 Unload (Graphic seems to be missing).
+sync 18478 3520 Unload
+sync 18481 3511 Rapid fire. (bow)
+sync 18482 3512 Rapid fire. (throwing axe?)
+sync 18483 3513 Rapid fire. (Throwing whatever)
+sync 18484 3514 Rapid fire. (Javelin)
+sync 18485 3515 Rapid fire. (Throwing knife)
+sync 18486 3516 Rapid fire. (Crossbow)
+sync 18487 3517 Rapid fire. (Throwing)
+sync 18488 3518 Rapid fire. (Crossbow)
+sync 18503 3524 Bombardment
+sync 18504 3524 Bombardment
+sync 18505 3524 Bombardment
+sync 18506 3524 Bombardment
+sync 18507 3524 Bombardment
+sync 18508 3524 Bombardment
+sync 18509 3524 Bombardment
+sync 18527 3526 Escape
+sync 18528 3526 Escape
+sync 18529 3526 Escape
+sync 18540 3473 Pulverise
+sync 18543 3472 Quake
+sync 18544 3472 Quake
+sync 18545 3472 Quake
+sync 18546 3467 Fury
+sync 18547 3467 Fury
+sync 18548 3468 Fury
+sync 18549 3469 Fury
+sync 18552 3470 Fury
+sync 18554 3471 Fury
+sync 18556 3481 Decimate
+sync 18557 3484 Decimate
+sync 18558 3482 Decimate
+sync 18559 3483 Decimate
+sync 18572 3487 Destroy
+sync 18577 3477 Assault
+sync 18578 3478 Assault
+sync 18579 3480 Assault
+sync 18580 3479 Assault
+sync 18585 3485 Frenzy
+sync 18586 3486 Frenzy
+sync 18588 3474 Pulverise
+sync 18590 3581 Dismember
+sync 18591 3581
+sync 18592 3581
+sync 18593 3581
+sync 18595 3473
+sync 18600 3477
+sync 18602 3481
+sync 18603 3481
+sync 19748 3873
+sync 19749 3873
+sync 19750 3875
+sync 19751 3874
+sync 19752 3872
+sync 19985 3905
+sync 19989 3900
+sync 19999 3908
+sync 20001 3909
+sync 20019 3481
+sync 20054 3481
+sync 20356 4015

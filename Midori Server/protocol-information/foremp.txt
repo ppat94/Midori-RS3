@@ -1,0 +1,62 @@
+14663 - Piercing Shot
+14664 - Binding Shot
+14665 - Escape
+14666 - Snipe
+14667 - Fragmentation Shot
+14668 - Ricochet
+14669 - Snap Shot
+14670 - Rapid Fire
+14671 - Bombardment
+14672 - Incendiary Shot
+14674 - Deadshot
+14677 - Slice
+14678 - Barge
+14679 - Sever
+14680 - Havoc
+14681 - Smash
+14682 - Backhand
+14683 - Slaughter
+14684 - Flurry
+14685 - Hurricane
+14686 - Overpower
+14687 - Massacre
+14688 - Meteor Strike
+14690 - Regenerate
+14697 - Single-Way Wilderness
+14698 - Dismember
+14699 - Kick
+14700 - Punish
+14701 - Fury
+14702 - Decimate
+14703 - Cleave
+14704 - Assault
+14705 - Quake
+14706 - Destroy
+14708 - Frenzy
+14709 - Pulverise
+14710 - Anticipation
+14711 - Freedom
+14712 - Provoke
+14713 - Resonance
+14714 - Preparation
+14715 - Bash
+14716 - Reflect
+14717 - Debilitate
+14718 - Revenge
+14720 - Rejuvenate
+14725 - Wrack
+14726 - Surge
+14727 - Impact
+14728 - Chain
+14729 - Combust
+14730 - Dragon Breath
+14731 - Asphyxiate
+14732 - Detonate
+14733 - Wild Magic
+14736 - Omnipower
+19251 - Death's Swiftness
+19254 - Sunshine
+19340 - Dazing Shot
+19341 - Needle Strike
+19342 - Sonic Wave
+19343 - Concentrated Blast

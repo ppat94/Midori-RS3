@@ -1,0 +1,122 @@
+Skilling interface:
+player.getWriter().sendConfig(1105, 4);
+player.getWriter().sendConfig(1168, 6939);
+player.getWriter().sendConfig(1169, 6947);
+player.getWriter().sendConfig(1170, 52);
+player.getWriter().sendConfig(312, 3145728);
+player.getWriter().sendConfig(312, 204472320);
+player.getWriter().sendConfig(1174, 0);
+player.getWriter().sendConfig(1174, 0);
+player.getWriter().sendConfig(1174, 0);
+player.getWriter().sendGlobalConfig(1703, 590);
+player.getWriter().sendGlobalConfig(1704, 946);
+player.getWriter().sendGlobalConfig(1705, -1);
+player.getWriter().sendGlobalConfig(1706, 24291);
+player.getWriter().sendGlobalConfig(1707, -1);
+player.getWriter().sendGlobalConfig(1708, -1);
+player.getWriter().sendGlobalConfig(1709, -1);
+player.getWriter().sendGlobalConfig(1710, -1);
+player.getWriter().sendGlobalConfig(1711, -1);
+player.getWriter().sendGlobalConfig(1712, -1);
+player.getWriter().sendGlobalConfig(1713, -1);
+player.getWriter().sendGlobalConfig(1714, -1);
+player.getWriter().sendGlobalConfig(1715, -1);
+player.getWriter().sendGlobalConfig(1716, -1);
+player.getWriter().sendGlobalConfig(1717, -1);
+player.getWriter().sendGlobalConfig(199, -1);
+player.getWriter().sendGlobalConfig(3678, -1);
+player.getWriter().sendRunScript(8178, new Object[] {});
+player.getWriter().sendInterface(1179, 1477, 238, false);
+player.getWriter().sendGlobalConfig(2222, 6940);
+player.getWriter().sendGlobalConfig(2225, 0);
+player.getWriter().sendGlobalConfig(2689, 0);
+player.getWriter().sendGlobalConfig(2690, 0);
+player.getWriter().sendGlobalConfig(2223, 1);
+player.getWriter().sendGlobalConfig(2224, 33);
+player.getWriter().sendGlobalConfig(199, -1);
+player.getWriter().sendGlobalConfig(3678, -1);
+player.getWriter().sendRunScript(8178, new Object[] {});
+player.getWriter().sendInterface(1370, 1477, 238, false);
+player.getWriter().sendInterface(1371, 1370, 62, true);
+player.getWriter().sendIComponentSettings(1371, 44, 0, 16, 2);
+player.getWriter().sendIComponentSettings(1371, 62, 0, 12, 2);
+player.getWriter().sendIComponentSettings(1371, 36, 0, 2, 2359296);
+player.getWriter().sendIComponentSettings(1371, 143, 0, 2, 2);
+
+Bank:
+player.getWriter().sendConfig(110, -2013265914);
+player.getWriter().sendGlobalConfig(169, 1);
+player.getWriter().sendGlobalConfig(192, 577);
+player.getWriter().sendGlobalConfig(1038, 68);
+player.getWriter().sendGlobalConfig(96, 0);
+player.getWriter().sendGlobalConfig(95, 0);
+player.getWriter().sendGlobalConfig(1324, 3);
+player.getWriter().sendGlobalConfig(199, -1);
+player.getWriter().sendInterface(762, 1477, 13, false);
+player.getWriter().sendRunScript(8862, 0 , 2 , );
+player.getWriter().sendRunScript(8862, 0 , 3 , );
+player.getWriter().sendRunScript(8865, 1 , );
+player.getWriter().sendIComponentSettings(762, 39, 0, 871, 2622718);
+player.getWriter().sendIComponentSettings(762, 54, 0, 27, 2361214);
+player.getWriter().sendIComponentSettings(762, 132, 0, 27, 4260990);
+player.getWriter().sendRunScript(1451, new Object[] {});
+player.getWriter().sendGlobalConfig(192, 577);
+player.getWriter().sendGlobalConfig(1038, 68);
+player.getWriter().sendGlobalConfig(96, 0);
+player.getWriter().sendGlobalConfig(95, 0);
+
+Black market:
+player.getWriter().sendConfig(1995, 3);
+player.getWriter().sendConfig(3441, 16586);
+player.getWriter().sendConfig(3453, 992);
+Incoming packet: 8 //send update items? :p
+
+
+Ports:
+player.getWriter().sendConfig(3389, 63);
+player.getWriter().sendConfig(3389, 16191);
+player.getWriter().sendConfig(3389, 4144959);
+player.getWriter().sendConfig(3389, 1061109567);
+Incoming packet: 102
+Incoming packet: 161
+Incoming packet: 107
+Incoming packet: 93
+player.getWriter().sendGlobalConfig(2655, 68223510);
+player.getWriter().sendGlobalConfig(2656, 299);
+player.getWriter().sendGlobalConfig(2657, 1597843);
+player.getWriter().sendGlobalConfig(2658, 18350679);
+player.getWriter().sendGlobalConfig(2659, 13107852);
+player.getWriter().sendGlobalConfig(2660, 571474305);
+player.getWriter().sendGlobalConfig(2661, 146800732);
+player.getWriter().sendGlobalConfig(2662, 14164503);
+player.getWriter().sendGlobalConfig(2663, 5776342);
+player.getWriter().sendGlobalConfig(2664, 303563940);
+player.getWriter().sendGlobalConfig(2665, 12582913);
+player.getWriter().sendGlobalConfig(2666, 196688);
+player.getWriter().sendGlobalConfig(2667, 168296466);
+player.getWriter().sendGlobalConfig(2668, 905986084);
+player.getWriter().sendGlobalConfig(2669, 1241605422);
+player.getWriter().sendGlobalConfig(2670, 418);
+player.getWriter().sendGlobalConfig(2671, 101);
+player.getWriter().sendGlobalConfig(2672, 469762859);
+player.getWriter().sendGlobalConfig(2673, 73897);
+player.getWriter().sendGlobalConfig(2674, 861);
+player.getWriter().sendGlobalConfig(2675, 100687889);
+player.getWriter().sendGlobalConfig(2676, 8630);
+player.getWriter().sendGlobalConfig(2677, 373293215);
+player.getWriter().sendGlobalConfig(2678, 1704974);
+player.getWriter().sendGlobalConfig(2679, 571998755);
+player.getWriter().sendGlobalConfig(2680, 4407481);
+player.getWriter().sendGlobalConfig(2681, 65968);
+player.getWriter().sendGlobalConfig(2682, 48504924);
+player.getWriter().sendGlobalConfig(2683, 503316974);
+player.getWriter().sendGlobalConfig(2684, 0);
+player.getWriter().sendGlobalConfig(2620, 845);
+player.getWriter().sendGlobalConfig(2621, 3152);
+player.getWriter().sendGlobalConfig(2622, 2860);
+player.getWriter().sendGlobalConfig(2623, 2306);
+player.getWriter().sendGlobalConfig(2771, 179038260);
+player.getWriter().sendInterface(905, 1477, 402, true);
+player.getWriter().sendInterface(1275, 1477, 281, true);
+player.getWriter().sendRunScript(8862, 1, 17, );
+player.getWriter().sendRunScript(2651, 17, );

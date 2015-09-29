@@ -1,0 +1,10 @@
+137 price per item
+135 item id
+136 quantity
+138 sell item?
+135 activates buy
+
+139:
+1 = sell 
+0 = buy 
+-1 = main interface

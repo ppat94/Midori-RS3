@@ -1,0 +1,11 @@
+inter 1412 : select a location (good for starters)
+inter 1420 : character creation (first time login)
+inter 1484 : subscribe button on screen
+inter 1496 : welcome interface (good for starting)
+inter 326 : Guthixian Memorabilia
+inter 68 : Templar armour
+inter 64 : New Character name
+inter 451 : Edit Note
+inter 475 : Flying mode camera
+inter 549 : Photo Booth
+inter 975: RS3 Play Game

@@ -1,0 +1,23 @@
+Slaughter : 21267
+Wierd Slice with 2 swords : 21259
+Immortality : 21261
+Random : 21262
+Nothing : 21263
+Havoc : 21264
+Overpower : 21271
+Slice : 21265
+Slice : 21266
+Random attack : 21273
+Nothing : 21275
+Nothing : 21276
+Nothing : 21280
+Nothing : 21282
+Nothing : 21290
+
+Order:
+
+Havoc
+Slice
+Flurry (maybe)
+Slaughter
+Overpower

@@ -1,0 +1,69 @@
+Loadstone:
+sendCS2Script(8178)
+sendInterface(false, 1477, 238, 1092);
+
+Convert Rift:
+sendConfig(1269, 670091);
+sendConfig(1756, 0);
+sendCS2Script(8178)
+sendInterface(false, 1477, 238, 131);
+
+interface settings:
+sendConfig(3709, 32);
+sendConfig(3708, 34252808);
+sendCS2Script(8194, 8, 2)
+sendIComponentSettings(1477, 72, 0, 24, 2);
+sendIComponentSettings(1477, 74, 1, 1, 2);
+sendInterface(true, 1448, 3, 1442);
+sendInterface(true, 1448, 5, 1214);
+
+open edit mode: 
+sendInterface(false, 1477, 70, 1475);
+sendIComponentSettings(1475, 68, 0, 7, 2);
+
+graphics settings:
+sendConfig(3709, 64);
+sendConfig(3708, 34252808);
+sendCS2Script(8194, 8, 4)
+sendIComponentSettings(1477, 72, 0, 24, 2);
+sendIComponentSettings(1477, 74, 1, 1, 2);
+sendInterface(true, 1448, 3, 1426);
+sendInterface(true, 1426, 0, 742);
+
+controls:
+sendConfig(3709, 48);
+sendInterface(true, 1448, 3, 1444);
+
+audio settings:
+sendConfig(3709, 80);
+sendConfig(83, 0);
+sendInterface(true, 1448, 3, 187);
+sendIComponentSettings(187, 1, 0, 2419, 30);
+sendIComponentSettings(187, 9, 0, 11, 2359302);
+sendIComponentSettings(187, 9, 12, 23, 4);
+sendIComponentSettings(187, 9, 24, 24, 2097152);
+sendIComponentText(187, 4, Worlds);
+sendInterface(true, 1448, 5, 429);
+
+Gameplay:
+sendConfig(3709, 16);
+sendConfig(97, 0);
+sendConfig(98, -1);
+sendConfig(97, 1);
+sendConfig(99, 0);
+sendConfig(100, 0);
+sendInterface(true, 1448, 3, 34);
+sendIComponentSettings(34, 18, 0, 29, 2621470);
+sendIComponentText(34, 22, Loading notes<br>Please wait...);
+sendInterface(true, 1448, 5, 1443);
+
+bank:
+sendConfig(110, -2013265920);
+sendInterface(false, 1477, 13, 762);
+sendCS2Script(8862, 2, 0)
+sendCS2Script(8862, 3, 0)
+sendCS2Script(8865, 1)
+sendIComponentSettings(762, 39, 0, 871, 2622718);
+sendIComponentSettings(762, 54, 0, 27, 2361214);
+sendIComponentSettings(762, 132, 0, 27, 4260990);
+sendCS2Script(1451)

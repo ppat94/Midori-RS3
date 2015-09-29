@@ -1,0 +1,571 @@
+Woodcutting, Mining, and Thieving all send configs.
+
+wc:
+player.getPackets().sendConfig(3513, 185553);
+player.getPackets().sendConfig(91, 1888508422);
+
+
+CONFIGS:
+3441: Number of chimes the player has (ports)
+3442: Number of bamboo the player has (ports)
+3443: Number of gunpowder the player has (ports)
+3444: Number of slate the player has (ports)
+3445: Number of cherrywood the player has (ports)
+3446: Number of jade the player has (ports)
+3447: Number of stainless steel the player has (ports)
+player.getPackets().sendConfig(3439, bones + (plate << 8) + (spice << 16)); //post explanation of cap amounts on wiki
+player.getPackets().sendConfig(3440, lacquer + (chi << 8));
+
+----
+open 1475:
+player.getPackets().sendInterface(false, 1477, 70, 1475);
+player.getPackets().sendIComponentSettings(1475, 68, 0, 7, 2);
+
+close 1475?
+player.getPackets().sendRunScript(2465, );
+
+
+interfaces:
+228 = bond shit
+248 = well of good will
+275 ^
+
+312 = barrows rise of the six countdown collapse
+
+391-kingdom shit
+
+475-orb of occulus send as window pane
+
+728-shoe change
+729-clothes change
+900-skin color and gender
+ 
+91-divination
+956-premade dung shop lol?
+
+1309-1310: co-op slayer
+1251: progress on making stuff inter
+
+
+configs:
+3274-prayer points
+659-HP
+163-bank pin stage
+1408-penguin points I guess
+player.getPackets().sendConfig(689, 2621440); -sent with adrenaline
+player.getPackets().sendConfig(679, 0); -adrenaline
+player.getPackets().sendConfig(3704, 6424); //quick inventory
+
+
+divination interface:
+player.getPackets().sendGlobalConfig(3710, 1);
+player.getPackets().sendGlobalConfig(3712, 0);
+player.getPackets().sendGlobalConfig(199, -1);
+player.getPackets().sendGlobalConfig(3678, -1);
+player.getPackets().sendRunScript(8178, );
+player.getPackets().sendInterface(false, 1477, 238, 131);
+
+select quickprayers:
+player.getPackets().sendConfig(1769, 1);
+player.getPackets().sendGlobalConfig(181, 1);
+player.getPackets().sendIComponentSettings(1458, 25, 0, 28, 2);
+
+close quickprayers:
+player.getPackets().sendConfig(1769, 0);
+player.getPackets().sendGlobalConfig(181, 0);
+
+
+money pouch:
+player.getPackets().sendRunScript(108, Your money pouch contains 16,141,882 coins.<br>How many would you like to withdraw?);
+
+player.getPackets().sendRunScript(5561, amount, 0); //withdraw
+player.getPackets().sendRunScript(5559, moneyInPouch);
+player.getPackets().sendRunScript(5561, amount, 1); deposit
+
+lunar spells activate:
+player.getPackets().sendConfig(4, 2);
+player.getPackets().sendConfig(1037, 0);
+player.getPackets().sendConfig(1038, 0);
+player.getPackets().sendConfig(1039, 0);
+player.getPackets().sendConfig(1037, 100);
+player.getPackets().sendConfig(1038, 100);
+player.getPackets().sendConfig(1039, 100);
+player.getPackets().sendInterface(true, 1477, 241, 1460);
+player.getPackets().sendInterface(true, 1477, 251, 1452);
+player.getPackets().sendInterface(true, 1477, 261, 1461);
+player.getPackets().sendInterface(true, 1477, 271, 1449);
+player.getPackets().sendIComponentSettings(1460, 1, 0, 168, 10320902);
+player.getPackets().sendIComponentSettings(1452, 1, 0, 168, 10320902);
+player.getPackets().sendIComponentSettings(1461, 1, 0, 168, 10320902);
+player.getPackets().sendIComponentSettings(1449, 1, 0, 168, 10320902);
+player.getPackets().sendIComponentSettings(1460, 4, 6, 14, 2);
+player.getPackets().sendIComponentSettings(1452, 7, 6, 14, 2);
+player.getPackets().sendIComponentSettings(1461, 7, 6, 14, 2);
+player.getPackets().sendIComponentSettings(1449, 7, 6, 14, 2);
+
+toolbelt:
+player.getPackets().sendGlobalConfig(199, -1);
+player.getPackets().sendGlobalConfig(3678, -1);
+player.getPackets().sendRunScript(8178, );
+player.getPackets().sendInterface(false, 1477, 238, 1178);
+
+GE Collection Box:
+player.getPackets().sendGlobalConfig(199, -1);
+player.getPackets().sendGlobalConfig(3678, -1);
+player.getPackets().sendRunScript(8178, );
+player.getPackets().sendInterface(false, 1477, 238, 109);
+player.getPackets().sendIComponentSettings(109, 2, 0, 0, 6);
+player.getPackets().sendIComponentSettings(109, 2, 2, 2, 6);
+player.getPackets().sendIComponentSettings(109, 6, 0, 0, 6);
+player.getPackets().sendIComponentSettings(109, 6, 2, 2, 6);
+player.getPackets().sendIComponentSettings(109, 10, 0, 0, 6);
+player.getPackets().sendIComponentSettings(109, 10, 2, 2, 6);
+player.getPackets().sendIComponentSettings(109, 15, 0, 0, 6);
+player.getPackets().sendIComponentSettings(109, 15, 2, 2, 6);
+player.getPackets().sendIComponentSettings(109, 20, 0, 0, 6);
+player.getPackets().sendIComponentSettings(109, 20, 2, 2, 6);
+player.getPackets().sendIComponentSettings(109, 25, 0, 0, 6);
+player.getPackets().sendIComponentSettings(109, 25, 2, 2, 6);
+
+How many would you like to make interface:
+player.getPackets().sendConfig(1168, 7079);
+player.getPackets().sendConfig(1169, 7083);
+player.getPackets().sendConfig(1170, 26123);
+player.getPackets().sendConfig(312, 0);
+player.getPackets().sendConfig(312, 0);
+player.getPackets().sendGlobalConfig(2222, 7080);
+player.getPackets().sendGlobalConfig(2225, 0);
+player.getPackets().sendGlobalConfig(2689, 0);
+player.getPackets().sendGlobalConfig(2690, 0);
+player.getPackets().sendGlobalConfig(2223, 0);
+player.getPackets().sendGlobalConfig(2224, -1);
+player.getPackets().sendGlobalConfig(199, -1);
+player.getPackets().sendGlobalConfig(3678, -1);
+player.getPackets().sendRunScript(8178, );
+player.getPackets().sendInterface(false, 1477, 238, 1370);
+player.getPackets().sendInterface(true, 1370, 62, 1371);
+player.getPackets().sendIComponentSettings(1371, 44, 0, 60, 2);
+player.getPackets().sendIComponentSettings(1371, 62, 0, 5, 2);
+
+Switching from how many ores to smelt to gold crafting:
+player.getPackets().sendConfig(1169, 6985);
+player.getPackets().sendConfig(1170, 13281);
+player.getPackets().sendConfig(312, 0);
+player.getPackets().sendConfig(312, 0);
+player.getPackets().sendConfig(1174, 0);
+player.getPackets().sendConfig(1174, 0);
+player.getPackets().sendConfig(1174, 0);
+player.getPackets().sendGlobalConfig(2223, 0);
+player.getPackets().sendGlobalConfig(2224, -1);
+player.getPackets().sendIComponentSettings(1371, 44, 0, 116, 2);
+
+
+Open Grand Exchange:
+player.getPackets().sendConfig(135, -1);
+player.getPackets().sendGlobalConfig(199, -1);
+player.getPackets().sendGlobalConfig(3678, -1);
+player.getPackets().sendInterface(false, 1477, 238, 105);
+player.getPackets().sendInterface(false, 1477, 291, 107);
+player.getPackets().sendRunScript(8178, );
+player.getPackets().sendRunScript(8865, 1);
+player.getPackets().sendIComponentSettings(107, 4, 0, 27, 14682110);
+player.getPackets().sendRunScript(8862, 2, 0);
+player.getPackets().sendRunScript(8862, 3, 0);
+player.getPackets().sendIComponentSettings(105, 77, -1, -1, 8650758);
+player.getPackets().sendIComponentSettings(105, 79, -1, -1, 8650758);
+
+GE Buy interface:
+player.getPackets().sendConfig(138, 0);
+player.getPackets().sendConfig(139, 0);
+player.getPackets().sendInterface(true, 1477, 233, 1418);
+player.getPackets().sendInterface(true, 1418, 0, 389);
+player.getPackets().sendRunScript(8178, );
+player.getPackets().sendRunScript(570, Grand Exchange Item Search);
+
+Shop interface:
+player.getPackets().sendConfig(304, 51);
+player.getPackets().sendConfig(305, -1);
+player.getPackets().sendConfig(306, 995);
+player.getPackets().sendGlobalConfig(199, -1);
+player.getPackets().sendGlobalConfig(3678, -1);
+player.getPackets().sendRunScript(8178, );
+player.getPackets().sendInterface(false, 1477, 238, 1265);
+player.getPackets().sendGlobalConfig(1879, 0);
+player.getPackets().sendIComponentSettings(1265, 20, 0, 28, 2097406);
+player.getPackets().sendIComponentSettings(1265, 26, 0, 28, 10223616);
+
+Open loyalty shop:
+player.getPackets().sendConfig(1235, 1);
+player.getPackets().sendGlobalConfig(3724, 0);
+player.getPackets().sendInterface(false, 1477, 67, 1143);
+player.getPackets().sendRunScript(8178, );
+player.getPackets().sendGlobalConfig(1648, loyaltypoints);
+player.getPackets().sendIComponentSettings(1143, 87, 0, 1, 0);
+player.getPackets().sendIComponentSettings(1143, 77, 0, 73, 2);
+player.getPackets().sendIComponentSettings(1143, 82, 0, 73, 2);
+player.getPackets().sendIComponentSettings(1143, 71, 0, 73, 2);
+player.getPackets().sendIComponentSettings(1143, 76, 0, 73, 2);
+
+Just walkin inta porarts m8
+player.getPackets().sendConfig(3451, 32768);
+player.getPackets().sendConfig(3389, 63);
+player.getPackets().sendConfig(3389, 16191);
+player.getPackets().sendConfig(3389, 4144959);
+player.getPackets().sendConfig(3389, 1061109567);
+Dynamic map region with coordinates: 518, 923
+Dynamic map region with coordinates: 552, 944
+player.getPackets().sendGlobalConfig(2655, 68223151);
+player.getPackets().sendGlobalConfig(2656, 1704518);
+player.getPackets().sendGlobalConfig(2657, 4194761);
+player.getPackets().sendGlobalConfig(2658, 368);
+player.getPackets().sendGlobalConfig(2659, 469762233);
+player.getPackets().sendGlobalConfig(2660, 437780612);
+player.getPackets().sendGlobalConfig(2661, 167772407);
+player.getPackets().sendGlobalConfig(2662, 1581257);
+player.getPackets().sendGlobalConfig(2663, 1241514310);
+player.getPackets().sendGlobalConfig(2664, 1241604550);
+player.getPackets().sendGlobalConfig(2665, 571998366);
+player.getPackets().sendGlobalConfig(2666, 1573098);
+player.getPackets().sendGlobalConfig(2667, 101187642);
+player.getPackets().sendGlobalConfig(2668, 4719156);
+player.getPackets().sendGlobalConfig(2669, 320340674);
+player.getPackets().sendGlobalConfig(2670, 628);
+player.getPackets().sendGlobalConfig(2671, 721262);
+player.getPackets().sendGlobalConfig(2672, 38797342);
+player.getPackets().sendGlobalConfig(2673, 12583028);
+player.getPackets().sendGlobalConfig(2674, 5775746);
+player.getPackets().sendGlobalConfig(2675, 503316626);
+player.getPackets().sendGlobalConfig(2676, 4808827);
+player.getPackets().sendGlobalConfig(2677, 8245);
+player.getPackets().sendGlobalConfig(2678, 303563207);
+player.getPackets().sendGlobalConfig(2679, 0);
+player.getPackets().sendGlobalConfig(2680, 0);
+player.getPackets().sendGlobalConfig(2681, 0);
+player.getPackets().sendGlobalConfig(2682, 0);
+player.getPackets().sendGlobalConfig(2683, 0);
+player.getPackets().sendGlobalConfig(2684, 0);
+player.getPackets().sendGlobalConfig(2620, 583);
+player.getPackets().sendGlobalConfig(2621, 1541);
+player.getPackets().sendGlobalConfig(2622, 1489);
+player.getPackets().sendGlobalConfig(2623, 1756);
+player.getPackets().sendGlobalConfig(2771, 197904948);
+player.getPackets().sendInterface(true, 1477, 402, 905);
+player.getPackets().sendInterface(true, 1477, 281, 1275);
+player.getPackets().sendRunScript(8862, 17, 1);
+player.getPackets().sendRunScript(2651, 17);
+
+Port management:
+player.getPackets().sendGlobalConfig(199, -1);
+player.getPackets().sendGlobalConfig(3678, -1);
+player.getPackets().sendRunScript(8178, );
+player.getPackets().sendInterface(false, 1477, 238, 1379);
+
+Archipelego map:
+player.getPackets().sendInterface(false, 1477, 67, 1377);
+
+Voyages:
+player.getPackets().sendConfig(3406, 0);
+player.getPackets().sendConfig(3406, 2);
+player.getPackets().sendConfig(3406, 2);
+player.getPackets().sendConfig(3406, 1026);
+player.getPackets().sendConfig(3411, 0);
+player.getPackets().sendConfig(3412, 0);
+player.getPackets().sendConfig(3413, 1500);
+player.getPackets().sendConfig(3408, 3682);
+player.getPackets().sendConfig(3409, 1836);
+player.getPackets().sendConfig(3410, 1071);
+player.getPackets().sendConfig(3407, 1163264);
+player.getPackets().sendConfig(3407, 1176064);
+player.getPackets().sendConfig(3407, 1176164);
+player.getPackets().sendConfig(3401, 5);
+player.getPackets().sendConfig(3402, 0);
+player.getPackets().sendConfig(3402, 0);
+player.getPackets().sendConfig(3416, 0);
+player.getPackets().sendConfig(3401, 1072627717);
+player.getPackets().sendConfig(3402, 151);
+player.getPackets().sendConfig(3415, 2);
+player.getPackets().sendGlobalConfig(2655, 68223151);
+player.getPackets().sendGlobalConfig(2656, 1704518);
+player.getPackets().sendGlobalConfig(2657, 4194761);
+player.getPackets().sendGlobalConfig(2658, 368);
+player.getPackets().sendGlobalConfig(2659, 469762233);
+player.getPackets().sendGlobalConfig(2660, 437780612);
+player.getPackets().sendGlobalConfig(2661, 167772407);
+player.getPackets().sendGlobalConfig(2662, 1581257);
+player.getPackets().sendGlobalConfig(2663, 1241514310);
+player.getPackets().sendGlobalConfig(2664, 1241604550);
+player.getPackets().sendGlobalConfig(2665, 571998366);
+player.getPackets().sendGlobalConfig(2666, 1573098);
+player.getPackets().sendGlobalConfig(2667, 101187642);
+player.getPackets().sendGlobalConfig(2668, 4719156);
+player.getPackets().sendGlobalConfig(2669, 320340674);
+player.getPackets().sendGlobalConfig(2670, 628);
+player.getPackets().sendGlobalConfig(2671, 721262);
+player.getPackets().sendGlobalConfig(2672, 38797342);
+player.getPackets().sendGlobalConfig(2673, 12583028);
+player.getPackets().sendGlobalConfig(2674, 5775746);
+player.getPackets().sendGlobalConfig(2675, 503316626);
+player.getPackets().sendGlobalConfig(2676, 4808827);
+player.getPackets().sendGlobalConfig(2677, 8245);
+player.getPackets().sendGlobalConfig(2678, 303563207);
+player.getPackets().sendGlobalConfig(2679, 0);
+player.getPackets().sendGlobalConfig(2680, 0);
+player.getPackets().sendGlobalConfig(2681, 0);
+player.getPackets().sendGlobalConfig(2682, 0);
+player.getPackets().sendGlobalConfig(2683, 0);
+player.getPackets().sendGlobalConfig(2684, 0);
+player.getPackets().sendGlobalConfig(2624, 23102971);
+player.getPackets().sendInterface(false, 1477, 67, 950);
+player.getPackets().sendRunScript(8178, );
+
+Upgrade buildings:
+player.getPackets().sendConfig(3449, 0);
+player.getPackets().sendConfig(1757, 0);
+player.getPackets().sendConfig(1763, -1);
+player.getPackets().sendGlobalConfig(199, -1);
+player.getPackets().sendGlobalConfig(3678, -1);
+player.getPackets().sendRunScript(8178, );
+player.getPackets().sendInterface(false, 1477, 238, 1373);
+player.getPackets().sendRunScript(7336, 0);
+player.getPackets().sendIComponentSettings(1373, 17, 0, 3, 2);
+player.getPackets().sendGlobalConfig(1953, -1);
+player.getPackets().sendGlobalConfig(1954, -1);
+
+
+Next building:
+player.getPackets().sendConfig(3449, 1);
+player.getPackets().sendConfig(1757, 0);
+player.getPackets().sendConfig(1763, -1);
+player.getPackets().sendInterface(true, 1477, 402, 905);
+player.getPackets().sendInterface(true, 1477, 281, 1275);
+player.getPackets().sendRunScript(8862, 17, 1);
+player.getPackets().sendRunScript(2651, 17);
+player.getPackets().sendGlobalConfig(199, -1);
+player.getPackets().sendGlobalConfig(3678, -1);
+player.getPackets().sendRunScript(8178, );
+player.getPackets().sendInterface(false, 1477, 238, 1373);
+player.getPackets().sendRunScript(7336, 1);
+player.getPackets().sendIComponentSettings(1373, 17, 0, 3, 2);
+player.getPackets().sendGlobalConfig(1953, -1);
+player.getPackets().sendGlobalConfig(1954, -1);
+
+Exit edit buildings:
+player.getPackets().sendConfig(83, 2279);
+player.getPackets().sendConfig(82, 1139);
+player.getPackets().sendConfig(83, 2278);
+player.getPackets().sendConfig(82, 1134);
+player.getPackets().sendInterface(true, 1477, 402, 905);
+player.getPackets().sendInterface(true, 1477, 281, 1275);
+player.getPackets().sendRunScript(8862, 17, 1);
+player.getPackets().sendRunScript(2651, 17);
+player.getPackets().sendGlobalConfig(2771, 116116404);
+player.getPackets().sendGlobalConfig(2771, 116116404);
+
+Enter shipyard:
+player.getPackets().sendConfig(3391, 0);
+player.getPackets().sendConfig(3390, 1);
+player.getPackets().sendConfig(3392, 0);
+player.getPackets().sendConfig(3406, 1026);
+player.getPackets().sendConfig(3393, 0);
+player.getPackets().sendConfig(3411, 0);
+player.getPackets().sendConfig(3412, 0);
+player.getPackets().sendConfig(3413, 800);
+player.getPackets().sendConfig(3408, 3682);
+player.getPackets().sendConfig(3409, 1836);
+player.getPackets().sendConfig(3410, 1071);
+player.getPackets().sendConfig(3407, 1651300);
+player.getPackets().sendConfig(3407, 1651300);
+player.getPackets().sendConfig(3407, 1651300);
+player.getPackets().sendGlobalConfig(2655, 68223151);
+player.getPackets().sendGlobalConfig(2656, 1704518);
+player.getPackets().sendGlobalConfig(2657, 4194761);
+player.getPackets().sendGlobalConfig(2658, 368);
+player.getPackets().sendGlobalConfig(2659, 469762233);
+player.getPackets().sendGlobalConfig(2660, 437780612);
+player.getPackets().sendGlobalConfig(2661, 167772407);
+player.getPackets().sendGlobalConfig(2662, 1581257);
+player.getPackets().sendGlobalConfig(2663, 1241514310);
+player.getPackets().sendGlobalConfig(2664, 1241604550);
+player.getPackets().sendGlobalConfig(2665, 571998366);
+player.getPackets().sendGlobalConfig(2666, 1573098);
+player.getPackets().sendGlobalConfig(2667, 101187642);
+player.getPackets().sendGlobalConfig(2668, 4719156);
+player.getPackets().sendGlobalConfig(2669, 320340674);
+player.getPackets().sendGlobalConfig(2670, 628);
+player.getPackets().sendGlobalConfig(2671, 721262);
+player.getPackets().sendGlobalConfig(2672, 38797342);
+player.getPackets().sendGlobalConfig(2673, 12583028);
+player.getPackets().sendGlobalConfig(2674, 5775746);
+player.getPackets().sendGlobalConfig(2675, 503316626);
+player.getPackets().sendGlobalConfig(2676, 4808827);
+player.getPackets().sendGlobalConfig(2677, 8245);
+player.getPackets().sendGlobalConfig(2678, 303563207);
+player.getPackets().sendGlobalConfig(2679, 0);
+player.getPackets().sendGlobalConfig(2680, 0);
+player.getPackets().sendGlobalConfig(2681, 0);
+player.getPackets().sendGlobalConfig(2682, 0);
+player.getPackets().sendGlobalConfig(2683, 0);
+player.getPackets().sendGlobalConfig(2684, 0);
+player.getPackets().sendInterface(false, 1477, 67, 916);
+player.getPackets().sendRunScript(8178, );
+player.getPackets().sendIComponentSettings(916, 293, 0, 512, 2);
+player.getPackets().sendIComponentSettings(916, 316, 0, 30, 3145730);
+player.getPackets().sendIComponentSettings(916, 323, 0, 30, 3145730);
+player.getPackets().sendIComponentSettings(916, 126, 0, 30, 2883590);
+player.getPackets().sendIComponentSettings(916, 130, 0, 30, 2883590);
+player.getPackets().sendRunScript(5929, );
+player.getPackets().sendGlobalConfig(2632, 280);
+player.getPackets().sendGlobalConfig(2633, 0);
+player.getPackets().sendGlobalConfig(2634, 320);
+player.getPackets().sendGlobalConfig(2635, 0);
+player.getPackets().sendGlobalConfig(2636, 1);
+player.getPackets().sendGlobalConfig(2638, 720);
+player.getPackets().sendGlobalConfig(2639, 0);
+player.getPackets().sendGlobalConfig(2640, 280);
+player.getPackets().sendGlobalConfig(2641, 0);
+player.getPackets().sendGlobalConfig(2642, 4);
+player.getPackets().sendGlobalConfig(2626, 26277);
+player.getPackets().sendGlobalConfig(2650, 2);
+player.getPackets().sendGlobalConfig(2643, 1);
+player.getPackets().sendGlobalConfig(2644, 1);
+player.getPackets().sendGlobalConfig(2645, 2500);
+player.getPackets().sendGlobalConfig(2646, 0);
+player.getPackets().sendGlobalConfig(2647, 0);
+player.getPackets().sendGlobalConfig(2648, 0);
+player.getPackets().sendGlobalConfig(2649, 0);
+player.getPackets().sendGlobalConfig(2611, 2);
+player.getPackets().sendGlobalConfig(2603, 846);
+player.getPackets().sendGlobalConfig(2604, 0);
+player.getPackets().sendGlobalConfig(2605, 1836);
+player.getPackets().sendGlobalConfig(2606, 0);
+player.getPackets().sendGlobalConfig(2607, 3682);
+player.getPackets().sendGlobalConfig(2608, 0);
+player.getPackets().sendGlobalConfig(2609, 1071);
+player.getPackets().sendGlobalConfig(2610, 0);
+player.getPackets().sendGlobalConfig(2624, 23102973);
+player.getPackets().sendGlobalConfig(2602, 0);
+player.getPackets().sendRunScript(5930, );
+player.getPackets().sendRunScript(7283, 0);
+
+Click view results of a mission when returned:
+player.getPackets().sendConfig(3408, 3682);
+player.getPackets().sendConfig(3409, 1836);
+player.getPackets().sendConfig(3410, 1071);
+player.getPackets().sendConfig(3442, 1032);
+player.getPackets().sendConfig(3441, 8879);
+player.getPackets().sendConfig(3395, 0);
+player.getPackets().sendConfig(3395, 0);
+player.getPackets().sendConfig(3452, 266465);
+player.getPackets().sendConfig(3394, -2137882624);
+player.getPackets().sendConfig(3405, 0);
+player.getPackets().sendConfig(3394, -2137915392);
+player.getPackets().sendConfig(3395, 0);
+player.getPackets().sendConfig(3395, 0);
+player.getPackets().sendConfig(3395, 0);
+player.getPackets().sendConfig(3395, 0);
+player.getPackets().sendConfig(3389, 1061109508);
+player.getPackets().sendGlobalConfig(2655, 68223154);
+player.getPackets().sendGlobalConfig(2656, 1704525);
+player.getPackets().sendGlobalConfig(2657, 4194768);
+player.getPackets().sendGlobalConfig(2658, 375);
+player.getPackets().sendGlobalConfig(2659, 469762240);
+player.getPackets().sendGlobalConfig(2660, 437780619);
+player.getPackets().sendGlobalConfig(2661, 167772407);
+player.getPackets().sendGlobalConfig(2662, 1581257);
+player.getPackets().sendGlobalConfig(2663, 1241514310);
+player.getPackets().sendGlobalConfig(2664, 1241604550);
+player.getPackets().sendGlobalConfig(2665, 571998366);
+player.getPackets().sendGlobalConfig(2666, 1573098);
+player.getPackets().sendGlobalConfig(2667, 101187642);
+player.getPackets().sendGlobalConfig(2668, 4719156);
+player.getPackets().sendGlobalConfig(2669, 320340674);
+player.getPackets().sendGlobalConfig(2670, 628);
+player.getPackets().sendGlobalConfig(2671, 721262);
+player.getPackets().sendGlobalConfig(2672, 38797342);
+player.getPackets().sendGlobalConfig(2673, 12583028);
+player.getPackets().sendGlobalConfig(2674, 5775746);
+player.getPackets().sendGlobalConfig(2675, 503316626);
+player.getPackets().sendGlobalConfig(2676, 4808827);
+player.getPackets().sendGlobalConfig(2677, 8245);
+player.getPackets().sendGlobalConfig(2678, 303563207);
+player.getPackets().sendGlobalConfig(2679, 0);
+player.getPackets().sendGlobalConfig(2680, 0);
+player.getPackets().sendGlobalConfig(2681, 0);
+player.getPackets().sendGlobalConfig(2682, 0);
+player.getPackets().sendGlobalConfig(2683, 0);
+player.getPackets().sendGlobalConfig(2684, 0);
+player.getPackets().sendRunScript(7250, );
+
+Close shipyard:
+player.getPackets().sendConfig(3390, 0);
+player.getPackets().sendConfig(3393, -1);
+player.getPackets().sendConfig(260, 0);
+player.getPackets().sendGlobalConfig(779, 2699);
+
+Customize captain:
+player.getPackets().sendConfig(3449, 3072);
+player.getPackets().sendConfig(3418, 7);
+player.getPackets().sendConfig(3418, 7175);
+player.getPackets().sendConfig(3418, 5250055);
+player.getPackets().sendGlobalConfig(199, -1);
+player.getPackets().sendGlobalConfig(3678, -1);
+player.getPackets().sendRunScript(8178, );
+player.getPackets().sendInterface(false, 1477, 238, 884);
+player.getPackets().sendRunScript(2268, );
+
+The attacking interface maybe?
+player.getPackets().sendRunScript(71, Market Guard, 60, 14364, 30, 30, 0);
+
+Dung reward trader open:
+player.getPackets().sendGlobalConfig(199, -1);
+player.getPackets().sendGlobalConfig(3678, -1);
+player.getPackets().sendRunScript(8178, );
+player.getPackets().sendInterface(false, 1477, 238, 940);
+player.getPackets().sendIComponentSettings(940, 2, 0, 336, 2);
+
+dung
+Open party interface:
+player.getPackets().sendConfig(3871, 1);
+player.getPackets().sendInterface(true, 1477, 281, 939);
+player.getPackets().sendRunScript(8862, 17, 1);
+player.getPackets().sendRunScript(2651, 17);
+player.getPackets().sendConfig(1091, 56626341); //shared xp toggles?
+player.getPackets().sendGlobalConfig(1183, 0); //complexity
+player.getPackets().sendGlobalConfig(1180, 0); //floor
+player.getPackets().sendGlobalConfig(1181, 37);
+player.getPackets().sendGlobalConfig(1182, 50);
+player.getPackets().sendGlobalConfig(1175, 0);
+player.getPackets().sendGlobalConfig(1176, 0);
+player.getPackets().sendGlobalConfig(1177, 0);
+player.getPackets().sendGlobalConfig(1178, 0);
+player.getPackets().sendGlobalConfig(1179, 0);
+
+floor select:
+player.getPackets().sendGlobalConfig(199, -1);
+player.getPackets().sendGlobalConfig(3678, -1);
+player.getPackets().sendRunScript(8178, );
+player.getPackets().sendInterface(false, 1477, 238, 947);
+player.getPackets().sendRunScript(3284, 50, 62062603, 62062608, 62062609);
+player.getPackets().sendRunScript(3285, 590);
+
+Choose to make something and start making it after skill interface:
+player.getPackets().sendConfig(1172, 21353);
+player.getPackets().sendConfig(312, 536870912);
+player.getPackets().sendConfig(312, 0);
+player.getPackets().sendConfig(1168, -1);
+player.getPackets().sendConfig(1169, -1);
+player.getPackets().sendConfig(1170, -1);
+player.getPackets().sendConfig(1175, 21353);
+player.getPackets().sendGlobalConfig(2222, -1);
+player.getPackets().sendGlobalConfig(2225, 0);
+player.getPackets().sendGlobalConfig(2689, 0);
+player.getPackets().sendGlobalConfig(2690, 0);
+player.getPackets().sendGlobalConfig(2226, 0);
+player.getPackets().sendInterface(true, 1477, 729, 1251);
+player.getPackets().sendGlobalConfig(2227, 3);
+player.getPackets().sendGlobalConfig(2228, 8);
+player.getPackets().sendGlobalConfig(2229, 8);
+player.getPackets().sendConfig(659, 6839);
+player.getPackets().sendGlobalConfig(2229, 7);
+player.getPackets().sendGlobalConfig(2229, 6);
+player.getPackets().sendGlobalConfig(2229, 5);

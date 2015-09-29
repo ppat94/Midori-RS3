@@ -1,0 +1,241 @@
+Fire remains: 714
+Emitter (fire): 1033
+Emitter (fire): 1034
+Emitter (fire): 1035
+Obelisk of Fire: 2153
+Fireplace: 2724
+Fireplace: 2725
+Fireplace: 2726
+Fire: 2732
+Fire Wall: 2908
+Fire Wall: 2909
+Fire: 3109
+Fire: 3769
+Flaming Fire altar: 4090
+Fire altar: 4091
+Broken Fire altar: 4092
+Fire: 4265
+Fire: 4266
+Fireplace: 4650
+Fire: 4766
+Fireplace: 5165
+Fireplace surround: 5178
+Fireplace surround: 5179
+Fire: 5249
+Fire remains: 5252
+Fire: 5499
+Fire: 5631
+Fire: 5981
+Blue Fire: 6009
+Fireplace: 6093
+Fireplace: 6094
+Fireplace: 6095
+Fireplace: 6096
+Fire-breathing equipment: 6772
+Fire-breathing equipment: 6773
+Ogre fire: 6866
+Fire rift: 7129
+Fireplace: 8712
+Fire: 9072
+Fireplace: 9439
+Fireplace: 9440
+Fireplace: 9441
+Fire: 10433
+Fireplace: 10824
+Fire: 11396
+Fire: 11397
+Fire: 11404
+Fire: 11405
+Fire: 11406
+Fire: 11424
+Fire: 11425
+Firepit: 12285
+Firepit: 12286
+Fire: 12796
+Fire: 13337
+Firepit: 13528
+Firepit with hook: 13529
+Firepit with hook: 13530
+Firepit with pot: 13531
+Firepit with pot: 13532
+Clay fireplace: 13609
+Clay fireplace: 13610
+Limestone fireplace: 13611
+Limestone fireplace: 13612
+Marble fireplace: 13613
+Marble fireplace: 13614
+Fire: 13881
+Fire: 14169
+Fire token: 14788
+Firebox: 14958
+Firebox: 14959
+Firebox: 14960
+Fire: 15156
+Fire remains: 15206
+Fire remains: 15207
+Fire remains: 15208
+Fire remains: 15209
+Fire remains: 15210
+Fireplace space: 15267
+Fireplace space: 15301
+Fireplace space: 15418
+Limestone fireplace: 17325
+Fireplace: 17640
+Fireplace: 17641
+Fireplace: 17642
+Fireplace: 17643
+The middle of a fireplace: 17766
+Fireplace: 18039
+Campfire: 19881
+Campfire: 19884
+Fire: 20000
+Fire: 20001
+Shelf (fire cube): 21290
+Fire: 21620
+Fire: 23046
+Camp fire: 23063
+Camping fire: 23175
+Fireplace: 24285
+Fireplace: 24329
+Fire: 25155
+Fire: 25156
+Potential fire: 25464
+Fire: 25465
+Fireplace: 27251
+Fire: 27297
+Warm campfire: 28486
+Cooking fire: 29094
+Unlit fire: 29095
+Fire pit: 29096
+Fire: 29139
+Fire pit: 29152
+Fire pit: 29154
+Fire pit: 29155
+Fireplace: 30839
+Fire: 32099
+Fire remains: 33050
+Fireplace: 33498
+Fireplace: 35449
+Fireplace: 36815
+Fireplace: 36816
+Fire: 37597
+Fire: 37726
+Fire pit: 37970
+Fire pit: 38043
+Campfire: 38165
+Campfire: 38166
+Fire pit: 38817
+Fire pit: 38818
+Fire pit: 38819
+Fire pit: 38820
+Fire pit: 38821
+Fire pit: 38822
+Fire pit: 38823
+Fire pit: 38824
+Fire pit: 38825
+Fire pit: 38826
+Fire pit: 38827
+Fire pit: 38828
+Fireplace: 40195
+Fire rune pile: 40969
+Fire rune pile: 40970
+Fire rune pile: 40971
+Fire rune pile: 40972
+Fire: 41687
+Fireplace: 42350
+Fire pit: 43016
+Campfire: 43373
+Fire trap: 44221
+Fire pit: 44367
+Fire pit: 44368
+Fire pit: 44369
+Fire pit: 44370
+Fire pit: 44371
+Fire pit: 45056
+Fire: 46416
+Fireplace: 46801
+Fireplace: 46802
+Fireplace: 46803
+Fireplace: 47573
+Fire: 49940
+Fire: 49941
+Fire: 49942
+Fire: 49943
+Fire: 49944
+Fire: 49945
+Fire: 49946
+Fire: 49947
+Fire: 49948
+Fire: 49949
+Spent campfire: 52707
+Campfire: 52708
+Campfire: 52709
+Fire: 52767
+Fire: 59446
+Fireplace: 60108
+Fireplace: 60109
+Fireplace: 60110
+Fireplace: 60111
+Fireplace: 65846
+Red fire: 66132
+Yellow fire: 66133
+Blue fire: 66134
+Red fire: 66135
+Yellow fire: 66136
+Blue fire: 66137
+Fire pit: 66138
+Fire pit: 66139
+Fire pit: 66140
+Fire: 66162
+Fire pit: 66163
+Fire wall: 66186
+Fire wall: 66190
+Fire wall: 66191
+Fire wall: 66192
+Fire wall: 66193
+Fire: 66365
+Fire: 66366
+Fire: 66367
+Camp Fire: 66892
+Camp Fire: 66914
+Camp Fire: 66915
+Camp Fire: 66916
+Camp Fire: 66917
+Camp Fire: 67483
+Fire pit: 67634
+Fire pit: 67635
+Fireball: 70459
+Fire storm: 70462
+Fire: 70755
+Fire: 70756
+Fire: 70757
+Fire: 70758
+Fire: 70759
+Fire: 70760
+Fire: 70761
+Fire: 70762
+Fire: 70763
+Fire: 70764
+Fire: 70765
+Fire: 70766
+Fire: 70767
+Fire: 70768
+Fire: 70769
+Fire: 70770
+Fire: 70771
+Campfire: 70855
+Fire: 73485
+Obelisk of Fire: 74862
+Firecapezorz cape: 76840
+Fire: 77906
+Fire: 79298
+Fire bowl: 80326
+Fire rune: 80499
+Cooking fire: 85650
+Fireplace: 87361
+Fire: 87548
+Fire: 87797
+Fire: 87798
+Fire: 87799
+Fire: 88245
+Fire: 88246

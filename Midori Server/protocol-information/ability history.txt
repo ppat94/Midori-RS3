@@ -1,0 +1,341 @@
+package com.orinate.game.content.actionbar;
+
+import java.io.Serializable;
+import java.util.List;
+
+import com.orinate.game.content.actionbar.constitutionbook.Incite;
+import com.orinate.game.content.actionbar.constitutionbook.Momentum;
+import com.orinate.game.content.actionbar.constitutionbook.Regenerate;
+import com.orinate.game.content.actionbar.constitutionbook.SingleWayWilderness;
+import com.orinate.game.content.actionbar.defencebook.Anticipation;
+import com.orinate.game.content.actionbar.defencebook.Barricade;
+import com.orinate.game.content.actionbar.defencebook.Bash;
+import com.orinate.game.content.actionbar.defencebook.Debilitate;
+import com.orinate.game.content.actionbar.defencebook.Freedom;
+import com.orinate.game.content.actionbar.defencebook.Immortality;
+import com.orinate.game.content.actionbar.defencebook.Preperation;
+import com.orinate.game.content.actionbar.defencebook.Provoke;
+import com.orinate.game.content.actionbar.defencebook.Reflect;
+import com.orinate.game.content.actionbar.defencebook.Rejuvenate;
+import com.orinate.game.content.actionbar.defencebook.Resonance;
+import com.orinate.game.content.actionbar.defencebook.Revenge;
+import com.orinate.game.content.actionbar.magicbook.Asphyxiate;
+import com.orinate.game.content.actionbar.magicbook.Chain;
+import com.orinate.game.content.actionbar.magicbook.Combust;
+import com.orinate.game.content.actionbar.magicbook.ConcentratedBlast;
+import com.orinate.game.content.actionbar.magicbook.Detonate;
+import com.orinate.game.content.actionbar.magicbook.DragonBreath;
+import com.orinate.game.content.actionbar.magicbook.Impact;
+import com.orinate.game.content.actionbar.magicbook.Metamorphisis;
+import com.orinate.game.content.actionbar.magicbook.Omnipower;
+import com.orinate.game.content.actionbar.magicbook.SonicWave;
+import com.orinate.game.content.actionbar.magicbook.Surge;
+import com.orinate.game.content.actionbar.magicbook.Tsunami;
+import com.orinate.game.content.actionbar.magicbook.WildMagic;
+import com.orinate.game.content.actionbar.magicbook.Wrack;
+import com.orinate.game.content.actionbar.meleebook.attack.Backhand;
+import com.orinate.game.content.actionbar.meleebook.attack.Barge;
+import com.orinate.game.content.actionbar.meleebook.attack.Flury;
+import com.orinate.game.content.actionbar.meleebook.attack.Havoc;
+import com.orinate.game.content.actionbar.meleebook.attack.Hurricane;
+import com.orinate.game.content.actionbar.meleebook.attack.Massacre;
+import com.orinate.game.content.actionbar.meleebook.attack.MeteorStrike;
+import com.orinate.game.content.actionbar.meleebook.attack.Overpower;
+import com.orinate.game.content.actionbar.meleebook.attack.Sever;
+import com.orinate.game.content.actionbar.meleebook.attack.Slaughter;
+import com.orinate.game.content.actionbar.meleebook.attack.Slice;
+import com.orinate.game.content.actionbar.meleebook.attack.Smash;
+import com.orinate.game.content.actionbar.meleebook.strength.Assault;
+import com.orinate.game.content.actionbar.meleebook.strength.Berserk;
+import com.orinate.game.content.actionbar.meleebook.strength.Cleave;
+import com.orinate.game.content.actionbar.meleebook.strength.Decimate;
+import com.orinate.game.content.actionbar.meleebook.strength.Destroy;
+import com.orinate.game.content.actionbar.meleebook.strength.Dismember;
+import com.orinate.game.content.actionbar.meleebook.strength.Frenzy;
+import com.orinate.game.content.actionbar.meleebook.strength.Fury;
+import com.orinate.game.content.actionbar.meleebook.strength.Kick;
+import com.orinate.game.content.actionbar.meleebook.strength.Pulverise;
+import com.orinate.game.content.actionbar.meleebook.strength.Punish;
+import com.orinate.game.content.actionbar.meleebook.strength.Quake;
+import com.orinate.game.content.actionbar.rangebook.BindingShot;
+import com.orinate.game.content.actionbar.rangebook.Bombardment;
+import com.orinate.game.content.actionbar.rangebook.DazingShot;
+import com.orinate.game.content.actionbar.rangebook.DeadShot;
+import com.orinate.game.content.actionbar.rangebook.Escape;
+import com.orinate.game.content.actionbar.rangebook.FragmentationShot;
+import com.orinate.game.content.actionbar.rangebook.IncendiaryShot;
+import com.orinate.game.content.actionbar.rangebook.NeedleStrike;
+import com.orinate.game.content.actionbar.rangebook.PiercingShot;
+import com.orinate.game.content.actionbar.rangebook.RapidFire;
+import com.orinate.game.content.actionbar.rangebook.Ricochet;
+import com.orinate.game.content.actionbar.rangebook.SnapShot;
+import com.orinate.game.content.actionbar.rangebook.Snipe;
+import com.orinate.game.content.actionbar.rangebook.Unload;
+import com.orinate.game.model.player.Player;
+import com.orinate.game.model.visual.Animation;
+
+/**
+ * @author Tom
+ * 
+ */
+public class ActionBar implements Serializable {
+	
+	public enum DefenceType {
+		DEFENCE,
+		CONSTITUTION;
+	}
+	
+	public enum MeleeType {
+		ATTACK,
+		STRENGTH;
+	}
+	
+	public enum MagicType {
+		MAGIC;
+	}
+
+	private static final long serialVersionUID = 1L;
+	
+	public static final int[] SHORTCUT_CHILD_IDS = new int[] { 32, 72, 76, 80, 84, 88, 92, 96, 100, 104, 108, 112 };
+	private static Ability[][] ABILITY_BOOKS = new Ability[6][];
+
+	public static final int ATTACK_BOOK = 0;
+	public static final int STRENGTH_BOOK = 1;
+	public static final int RANGED_BOOK = 2;
+	public static final int MAGIC_BOOK = 3;
+	public static final int DEFENSIVE_BOOK = 4;
+	public static final int CONSTITUTION_BOOK = 5;
+	
+	static {
+		// Attack book.
+		ABILITY_BOOKS[ATTACK_BOOK] = new Ability[12];
+		ABILITY_BOOKS[ATTACK_BOOK][0] = new Slice();
+		ABILITY_BOOKS[ATTACK_BOOK][1] = new Slaughter();
+		ABILITY_BOOKS[ATTACK_BOOK][2] = new Overpower();
+		ABILITY_BOOKS[ATTACK_BOOK][3] = new Havoc();
+		ABILITY_BOOKS[ATTACK_BOOK][4] = new Backhand();
+		ABILITY_BOOKS[ATTACK_BOOK][5] = new Smash();
+		ABILITY_BOOKS[ATTACK_BOOK][6] = new Barge();
+		ABILITY_BOOKS[ATTACK_BOOK][7] = new Flury();
+		ABILITY_BOOKS[ATTACK_BOOK][8] = new Sever();
+		ABILITY_BOOKS[ATTACK_BOOK][9] = new Hurricane();
+		ABILITY_BOOKS[ATTACK_BOOK][10] = new Massacre();
+		ABILITY_BOOKS[ATTACK_BOOK][11] = new MeteorStrike();
+
+		// Stength book.
+		ABILITY_BOOKS[STRENGTH_BOOK] = new Ability[12];
+		ABILITY_BOOKS[STRENGTH_BOOK][0] = new Kick();
+		ABILITY_BOOKS[STRENGTH_BOOK][1] = new Punish();
+		ABILITY_BOOKS[STRENGTH_BOOK][2] = new Dismember();
+		ABILITY_BOOKS[STRENGTH_BOOK][3] = new Fury();
+		ABILITY_BOOKS[STRENGTH_BOOK][4] = new Destroy();
+		ABILITY_BOOKS[STRENGTH_BOOK][5] = new Quake();
+		ABILITY_BOOKS[STRENGTH_BOOK][6] = new Berserk();
+		ABILITY_BOOKS[STRENGTH_BOOK][7] = new Cleave();
+		ABILITY_BOOKS[STRENGTH_BOOK][8] = new Assault();
+		ABILITY_BOOKS[STRENGTH_BOOK][9] = new Decimate();
+		ABILITY_BOOKS[STRENGTH_BOOK][10] = new Pulverise();
+		ABILITY_BOOKS[STRENGTH_BOOK][11] = new Frenzy();
+
+		// Ranged book.
+		ABILITY_BOOKS[RANGED_BOOK] = new Ability[14];
+		ABILITY_BOOKS[RANGED_BOOK][0] = new PiercingShot();
+		ABILITY_BOOKS[RANGED_BOOK][1] = new SnapShot();
+		ABILITY_BOOKS[RANGED_BOOK][2] = new DeadShot();
+		ABILITY_BOOKS[RANGED_BOOK][3] = new Snipe();
+		ABILITY_BOOKS[RANGED_BOOK][4] = new DazingShot();
+		ABILITY_BOOKS[RANGED_BOOK][5] = new NeedleStrike();
+		ABILITY_BOOKS[RANGED_BOOK][6] = new BindingShot();
+		ABILITY_BOOKS[RANGED_BOOK][7] = new FragmentationShot();
+		ABILITY_BOOKS[RANGED_BOOK][8] = new Escape();
+		ABILITY_BOOKS[RANGED_BOOK][9] = new RapidFire();
+		ABILITY_BOOKS[RANGED_BOOK][10] = new Ricochet();
+		ABILITY_BOOKS[RANGED_BOOK][11] = new Bombardment();
+		ABILITY_BOOKS[RANGED_BOOK][12] = new IncendiaryShot();
+		ABILITY_BOOKS[RANGED_BOOK][13] = new Unload();
+
+		// Defensive book.
+		ABILITY_BOOKS[DEFENSIVE_BOOK] = new Ability[12];
+		ABILITY_BOOKS[DEFENSIVE_BOOK][0] = new Anticipation();
+		ABILITY_BOOKS[DEFENSIVE_BOOK][1] = new Bash();
+		ABILITY_BOOKS[DEFENSIVE_BOOK][2] = new Revenge();
+		ABILITY_BOOKS[DEFENSIVE_BOOK][3] = new Provoke();
+		ABILITY_BOOKS[DEFENSIVE_BOOK][4] = new Immortality();
+		ABILITY_BOOKS[DEFENSIVE_BOOK][5] = new Freedom();
+		ABILITY_BOOKS[DEFENSIVE_BOOK][6] = new Reflect();
+		ABILITY_BOOKS[DEFENSIVE_BOOK][7] = new Resonance();
+		ABILITY_BOOKS[DEFENSIVE_BOOK][8] = new Rejuvenate();
+		ABILITY_BOOKS[DEFENSIVE_BOOK][9] = new Debilitate();
+		ABILITY_BOOKS[DEFENSIVE_BOOK][10] = new Preperation();
+		ABILITY_BOOKS[DEFENSIVE_BOOK][11] = new Barricade();
+
+		// Magic book.
+		ABILITY_BOOKS[MAGIC_BOOK] = new Ability[14];
+		ABILITY_BOOKS[MAGIC_BOOK][0] = new Wrack();
+		ABILITY_BOOKS[MAGIC_BOOK][1] = new Asphyxiate();
+		ABILITY_BOOKS[MAGIC_BOOK][2] = new Omnipower();
+		ABILITY_BOOKS[MAGIC_BOOK][3] = new DragonBreath();
+		ABILITY_BOOKS[MAGIC_BOOK][4] = new SonicWave();
+		ABILITY_BOOKS[MAGIC_BOOK][5] = new ConcentratedBlast();
+		ABILITY_BOOKS[MAGIC_BOOK][6] = new Impact();
+		ABILITY_BOOKS[MAGIC_BOOK][7] = new Combust();
+		ABILITY_BOOKS[MAGIC_BOOK][8] = new Surge();
+		ABILITY_BOOKS[MAGIC_BOOK][9] = new Detonate();
+		ABILITY_BOOKS[MAGIC_BOOK][10] = new Chain();
+		ABILITY_BOOKS[MAGIC_BOOK][11] = new WildMagic();
+		ABILITY_BOOKS[MAGIC_BOOK][12] = new Metamorphisis();
+		ABILITY_BOOKS[MAGIC_BOOK][13] = new Tsunami();
+
+		// Constitution book.
+		ABILITY_BOOKS[CONSTITUTION_BOOK] = new Ability[4];
+		ABILITY_BOOKS[CONSTITUTION_BOOK][0] = new Regenerate();
+		ABILITY_BOOKS[CONSTITUTION_BOOK][1] = new Momentum();
+		ABILITY_BOOKS[CONSTITUTION_BOOK][2] = new Incite();
+		ABILITY_BOOKS[CONSTITUTION_BOOK][3] = new SingleWayWilderness();
+	}
+
+	private transient Player player;
+	private transient int adrenaline;
+	
+	private transient DefenceType defenceType;
+	private transient MagicType magicType;
+	private transient MeleeType meleeType;
+
+	private Ability[][] currentAbilities = new Ability[5][12];
+	private Shortcut[][] shortcuts = new Shortcut[5][12];
+	private int currentBar;
+	private boolean barLocked;
+	private boolean sheathing;
+
+	public ActionBar(Player player) {
+		this.player = player;
+		this.currentBar = 0;
+	}
+	
+	public void init() {
+		defenceType = DefenceType.DEFENCE;
+		magicType = MagicType.MAGIC;
+		meleeType = MeleeType.ATTACK;
+	}
+	
+	public void refresh() {
+		sendSettings();
+		for (int slot = 0; slot < 12; slot++) {
+			refreshSlot(slot);
+		}
+		player.getWriter().sendConfig(679, adrenaline);
+	}
+
+	public void refreshSlot(int slot) {
+		Shortcut shortcut = shortcuts[currentBar][slot];
+		player.getWriter().sendConfig(727 + slot, shortcut != null ? shortcut.id() : 0);
+		player.getWriter().sendConfig(739 + slot, 0);
+		player.getWriter().sendConfig(811 + slot, shortcut != null ? shortcut.itemId() : -1);
+		player.getWriter().sendConfig(823 + slot, -1);
+		player.getWriter().sendIComponentSettings(640, SHORTCUT_CHILD_IDS[slot], -1, -1, shortcut == null ? 2097152 : (barLocked ? 2195454 : 11108350));
+		
+	}
+	
+	public Ability getAbility(int book, int store) {
+		return ABILITY_BOOKS[book][store];
+	}
+
+	private void sendSettings() {
+		int maskData = (currentBar + 1) << 5;
+		if (barLocked) {
+			maskData |= 0x10;
+		}
+		player.getWriter().sendConfig(682, maskData);
+	}
+	
+	public void add(int slotId, Ability ability) {
+		if (currentAbilities[currentBar][slotId] != null) {
+			currentAbilities[currentBar][slotId] = null;
+			shortcuts[currentBar][slotId] = null;
+			refresh();
+		}
+		currentAbilities[currentBar][slotId] = ability;
+		addShortcut(slotId, ability.getShortcut());		
+	}
+	
+	public void updateSheate() {
+		sheathing = !sheathing;
+		player.getAnimator().animate(Animation.create(sheathing ? 18027 : 18028));
+		player.getAppearance().setShowSkillLevel(sheathing);
+		player.getAppearance().refresh();		
+	}
+
+	private void addShortcut(int slotId, Shortcut shortcut) {
+		shortcuts[currentBar][slotId] = shortcut;
+		refreshSlot(slotId);		
+	}
+
+	public int getAdrenaline() {
+		return adrenaline;
+	}
+	
+	public void setAdrenaline(int a) {
+		this.adrenaline = a;
+	}
+
+	public Ability[][] getCurrentAbilities() {
+		return currentAbilities;
+	}
+
+	public Shortcut[][] getShortcuts() {
+		return shortcuts;
+	}
+
+	public int getCurrentBar() {
+		return currentBar;
+	}
+
+	public boolean isBarLocked() {
+		return barLocked;
+	}
+
+	public boolean isSheathing() {
+		return sheathing;
+	}
+
+	public void setSheathing(boolean sheathing) {
+		this.sheathing = sheathing;
+	}
+	
+	public void setPlayer(Player player) {
+		this.player = player;
+	}
+
+	public DefenceType getDefenceType() {
+		return defenceType;
+	}
+
+	public void setDefenceType(DefenceType defenceType) {
+		this.defenceType = defenceType;
+	}
+
+	public MagicType getMagicType() {
+		return magicType;
+	}
+
+	public void setMagicType(MagicType magicType) {
+		this.magicType = magicType;
+	}
+
+	public MeleeType getMeleeType() {
+		return meleeType;
+	}
+
+	public void setMeleeType(MeleeType meleeType) {
+		this.meleeType = meleeType;
+	}
+
+	public void setCurrentBar(int currentBar) {
+		this.currentBar = currentBar;
+	}
+
+	public List<Integer> getActiveKeybinds() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+}

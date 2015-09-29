@@ -1,0 +1,38 @@
+Installation Instructions for Memory Mobile Skin:
+----------------------------------------------------
+
+
+1. Import the two XML files just like any other skin in your Look and Feel
+tab of the ACP. These files are:
+
+memory-mobile.xml.gz
+images-memorymobile.xml.gz
+
+
+
+Setting Your New Mobile Skin as Default Mobile Skin
+---------------------------------------------------
+
+
+1. After importing, go to the dropdown link next to the DEFAULT IP.Board Mobile skin
+in your Look and Feel tab, and click "Edit Settings."
+
+
+2. Change the "Skin Set Key?" option to "mobile_12345" and NOTHING else after it. You
+can change it to whatever you like, just make sure it no longer says "mobile."
+This is because the default mobile skin will only be chosen if the skin set key is just
+plain "mobile." Save.
+NOTE: IPS has hidden the skin set key in many cases, so if you don't see it, there is
+an easy, but not obvious way to do it. If you need help, email bitter@finalprestige.net
+and we'll take care of it for you.
+
+
+3. Next, uncheck the option that displays the default skin as default for everyone.
+
+
+4. Now go to "Edit Settings" of Memory Mobile, and change the skin set key to "mobile" (with no numbers after it)
+and save.
+NOTE: Again, if you don't see the skin set key appear, same message as in step 2.
+
+
+5. Lastly, check the option to make Memory Mobile the default skin for everyone.

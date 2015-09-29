@@ -1,0 +1,109 @@
+Defence book.
+19 - Aniticipation
+99 - Bash
+147 - revenge
+51 - provoke
+195 - immortality
+35 - freedom
+115 - reflect
+67 - resonance
+179 - rejuinvate
+131 - debilitate
+83 - preperation
+163 - barricade
+
+Hp Book.
+20 - regenerate
+116 - momentum
+36 - incite
+132 - single-way wilderness
+
+Range Book
+Peircing shot - 21
+Snap shot - 117
+Dead shot - 197
+snipe - 69
+Dazing shot - 245
+Needle strike - 261
+Binding shot - 37
+Fragmentation shot - 85
+Escape - 53
+Rapid fire - 133
+Ricochete - 101
+Bonbardment - 149
+Insinary shot - 165
+Unload - 181
+
+Mage Book
+Wrack - 22
+Exfisciate - 118
+Omni power - 198
+Dragon's breath - 102
+Sonic wave - 2646
+Concentrated blast - 2662
+Impact - 54
+Combust - 86
+Surge - 38
+Detonate - 134
+Chain - 70
+Wild magic - 150
+Metemorphisis - 166
+Psnuami - 182
+
+Attack book
+Slice - 17
+Slaughter - 113
+Overpower - 161
+Havoc - 65
+Backhand - 97
+Smash - 81
+Barge - 33
+Flury - 129
+Sever - 49
+Hurricane - 145
+Massacre - 177
+Metor strike - 193
+
+Stength book
+Kick - 34
+Punish - 50
+Dismember - 18
+Fury - 66
+Destroy - 146
+Quake - 130
+Berserk - 162
+Cleave - 98
+Assualt - 114
+Decimate - 82
+Pulverise - 194
+Frenzy - 178
+
+
+Modern Prayers
+Steel skin - 167
+Ultimate stength - 183
+Incredible reflexes - 199
+Eagle eye - 375
+Overpowering force - 855
+Mystic might - 391
+Overcharge - 903
+Rapid restore - 119
+Rapid heal - 135
+Protect item - 151
+Protect from summoning - 407
+Protect from magic - 215
+Protect from missiles - 231
+Protect from melee - 247
+Retribution - 263
+Redemption - 279
+Smite - 295
+Chivlary - 423
+Rapid renewal - 455
+Piety - 439
+Rigour - 487
+Augary - 471
+
+Prayer icon on bar - 21399
+HP Icon on bar - 28
+Summoning icon on bar - 29
+run on bar - 24

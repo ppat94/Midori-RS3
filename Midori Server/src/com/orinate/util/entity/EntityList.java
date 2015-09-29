@@ -1,0 +1,146 @@
+package com.orinate.util.entity;
+
+import java.util.AbstractCollection;
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.Set;
+
+import com.orinate.game.model.Entity;
+
+/**
+ * @author Tom
+ * 
+ */
+@SuppressWarnings("unchecked")
+public class EntityList<T extends Entity> extends AbstractCollection<T> {
+
+	private static final int MIN_VALUE = 1;
+	public Object[] entities;
+	public Set<Integer> indicies = new HashSet<Integer>();
+	public int curIndex = MIN_VALUE;
+	public int capacity;
+	private final Object lock = new Object();
+
+	public EntityList(int capacity) {
+		entities = new Object[capacity];
+		this.capacity = capacity;
+	}
+
+	@Override
+	public boolean add(T entity) {
+		synchronized (lock) {
+			add(entity, curIndex);
+			return true;
+		}
+	}
+
+	public void remove(T entity) {
+		synchronized (lock) {
+			entities[entity.getIndex()] = null;
+			indicies.remove(entity.getIndex());
+			decreaseIndex();
+		}
+	}
+
+	public T remove(int index) {
+		synchronized (lock) {
+			Object temp = entities[index];
+			entities[index] = null;
+			indicies.remove(index);
+			decreaseIndex();
+			return (T) temp;
+		}
+	}
+
+	public T get(int index) {
+		synchronized (lock) {
+			if (index >= entities.length)
+				return null;
+			return (T) entities[index];
+		}
+	}
+
+	public void add(T entity, int index) {
+		if (entities[curIndex] != null) {
+			increaseIndex();
+			add(entity, curIndex);
+		} else {
+			entities[curIndex] = entity;
+			entity.setIndex(index);
+			indicies.add(curIndex);
+			increaseIndex();
+		}
+	}
+
+	@Override
+	public Iterator<T> iterator() {
+		synchronized (lock) {
+			return new EntityListIterator<T>(entities, indicies, this);
+		}
+	}
+
+	public void increaseIndex() {
+		curIndex++;
+		if (curIndex >= capacity) {
+			curIndex = MIN_VALUE;
+		}
+	}
+
+	public void decreaseIndex() {
+		curIndex--;
+		if (curIndex <= capacity)
+			curIndex = MIN_VALUE;
+	}
+
+	public boolean contains(T entity) {
+		return indexOf(entity) > -1;
+	}
+
+	@SuppressWarnings("rawtypes")
+	public class EntityListIterator<E extends Entity> implements Iterator<E> {
+
+		private Integer[] indicies;
+		private Object[] entities;
+		private EntityList entityList;
+		private int curIndex = 0;
+
+		public EntityListIterator(Object[] entities, Set<Integer> indicies, EntityList entityList) {
+			this.entities = entities;
+			this.indicies = indicies.toArray(new Integer[indicies.size()]);
+			this.entityList = entityList;
+		}
+
+		@Override
+		public boolean hasNext() {
+			return indicies.length != curIndex;
+		}
+
+		@Override
+		public E next() {
+			Object temp = entities[indicies[curIndex]];
+			curIndex++;
+			return (E) temp;
+		}
+
+		@Override
+		public void remove() {
+			if (curIndex >= 1) {
+				entityList.remove(indicies[curIndex - 1]);
+			}
+		}
+	}
+
+	public int indexOf(T entity) {
+		for (int index : indicies) {
+			if (entities[index].equals(entity)) {
+				return index;
+			}
+		}
+		return -1;
+	}
+
+	@Override
+	public int size() {
+		return indicies.size();
+	}
+}

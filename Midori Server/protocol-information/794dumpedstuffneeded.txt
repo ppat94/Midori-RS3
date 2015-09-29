@@ -1,0 +1,42 @@
+World Map:
+
+CS2: 7945: []
+CS2: 8060: [96010249, -1]
+CS2: 9332: []
+
+Choose a tool:
+
+Config1 = -1, 1705
+Config1 = -1, 1707
+Config1 = -1, 1708
+Config1 = -1, 1709
+Config1 = -1, 1710
+Config1 = -1, 1711
+Config1 = -1, 1712
+Config1 = -1, 1713
+Config1 = -1, 1714
+Config1 = -1, 1715
+Config1 = -1, 1716
+Config1 = -1, 1717
+Config1 = -1, 199
+Config1 = -1, 3678
+CS2: 8178: []
+
+
+Skilling interface:
+
+Config2 = 1106, 77266977
+Config2 = 1169, 6947 //this can also be 6949, 6950
+Config2 = 312, 1048576 // probably unlocks the huge fletch button at bottom.
+Config2 = 312, 68157440 //something to do with amount
+Config1 = 0, 2225
+Config2 = 1169, 6955 // the item selected in dropdown box. value can also be 6956, 6954, etcc
+Config1 = 0, 2689
+Config1 = 0, 2690
+Config1 = 1, 2223
+Config1 = 12, 2224 // -1, 2224 if members only probably/locked |||||| 29, 2224 is the second box selected first row
+Config1 = -1, 199
+Config1 = -1, 3678
+Config2 = 1170, 9440 // probably locks the huge fletch button at bottom
+Config2 = 312, 67108864
+CS2: 8178: []
