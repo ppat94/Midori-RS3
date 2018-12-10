@@ -1,5 +1,5 @@
 # Midori-RS3
-This is the Midori RS3 server. It has some parts of the combat added by me. For those of you trying to implement combat further, there is everything that you will need to do so (Logs, Dumps, Comments). Check the comments for more information.
+This is the Midori RS3 server. It has some parts of the combat added by me. For those of you trying to implement combat further, there is everything that you will need including Logs, Dumps and Comments. Check the comments for more information.
 
 # NOTE:
 *** This project is solely based on the concept of self-learning and grasping knowledge in the technical field.
