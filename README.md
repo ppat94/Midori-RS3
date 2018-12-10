@@ -6,4 +6,4 @@ This is the Midori RS3 server. It has some parts of the combat added by me. For 
 *** This project is not affiliated with Jagex Ltd or RuneScape in any way.
 *** This project cannot be distributed for any currency including Bitcoin.
 *** You can use this project to learn however, it should NOT be published as an RSPS (RuneScape Private Server) in any way. Publishing it would act as a breach of legal asset of Jagex Ltd.
-*** If this project is published, it is NOT of any concern to the developers including me ('ppat94' - LinkedIn username) and therefore, no legal procedure shall be taken against us AND publishing shall be done at your own risk!
+*** If this project is published, it is NOT of any concern to the developers including me ('parthpatel1994' - LinkedIn username) and therefore, no legal procedure shall be taken against me AND publishing shall be done at your own risk!
